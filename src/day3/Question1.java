@@ -16,7 +16,7 @@ public class Question1 {
                 dup.add(arr[i]);
             }
         }
-        System.out.println(set);
+        // System.out.println(set);
         System.out.println(dup);
     }
 }
