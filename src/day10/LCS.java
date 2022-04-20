@@ -15,10 +15,10 @@ public class LCS { // Longest Common Substring
             Arrays.fill(is, -1);
         }
         System.out.println(lcsMemo(s1, n, s2, m, T));
-        System.out.println(lcsTopDown(s1, n, s2, m, T));
+        System.out.println(lcsTopDown(s1, n, s2, m));
     }
 
-    private static int lcsTopDown(String s1, int n, String s2, int m, int[][] t) {
+    private static int lcsTopDown(String s1, int n, String s2, int m) {
         
         return 0;
     }
