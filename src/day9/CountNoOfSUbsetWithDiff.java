@@ -18,7 +18,6 @@ public class CountNoOfSUbsetWithDiff {
 
     private static int subsetCount(int[] arr, int sum, int n) {
         int[][] T = new int[n + 1][sum + 1];
-        // initialization condition
         for (int i = 0; i < n + 1; i++) {
             for (int j = 0; j < sum + 1; j++) {
                 if (i == 0) {
